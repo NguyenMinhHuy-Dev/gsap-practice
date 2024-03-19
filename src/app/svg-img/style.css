@@ -1,0 +1,18 @@
+.displacement {
+  filter: url(#displacementFilter);
+  transform: translateY(-335px);
+}
+
+.displacement-02 {
+  filter: url(#displacementFilter-02);
+  transform: translate(30%, -335px);
+}
+
+.displacement-03 {
+  filter: url(#displacementFilter-03);
+  transform: translateY(-335px);
+}
+
+svg image {
+  object-fit: contain;
+}
