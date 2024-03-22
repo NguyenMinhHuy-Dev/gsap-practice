@@ -74,7 +74,7 @@ const Page = () => {
     window.addEventListener("wheel", (e) => {
       target += e.deltaY;
       target = Math.max(0, target);
-      target = Matn.min(maxScroll, target);
+      target = Math.min(maxScroll, target);
     });
 
     update();
